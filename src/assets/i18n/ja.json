@@ -1,0 +1,78 @@
+{
+  "LANG": {
+    "ENGLISH": "英語",
+    "JAPANESE": "日本語"
+  },
+  "SELECT_LANG": "言語を選択",
+  "ROLE": "ロール",
+  "SELECT_ROLE": "ロールを選択",
+  "ACCOUNT_MENU": "アカウントメニュー",
+  "SPECIFIED_SEARCH_CRITERIA": "検索条件を指定",
+  "NOTICE": "お知らせ",
+  "IPHONE_および_ANDROID_に対応しました！": "iPhone および Android に対応しました！",
+  "ANGULAR_MATERIAL_を使ってUIデザインをリニューアルしました！": "Angular Material を使ってUIデザインをリニューアルしました！",
+  "DENAグループの従業員情報を統合し、ACTIVE_DIRECTORYを始めとする様々なシステムとの連携を実現します。": "DeNAグループの従業員情報を統合し、Active Directoryを始めとする様々なシステムとの連携を実現します。",
+  "各種バッチ処理の制御": "各種バッチ処理の制御",
+  "各種バッチ処理の制御はこちら": "各種バッチ処理の制御はこちら",
+  "会社・部署・部署グループ": "会社・部署・部署グループ",
+  "会社・部署・部署グループを確認": "会社・部署・部署グループを確認",
+  "アクセス権限の管理": "アクセス権限の管理",
+  "アクセス権限をロール毎にユーザー・グループを指定して管理できます": "アクセス権限をロール毎にユーザー・グループを指定して管理できます",
+  "UNDER_CONSTRUCTION": "工事中",
+  "PAGES": {
+    "HOME":          "ホーム",
+    "PEOPLE":        "従業員",
+    "ORGANIZATIONS": "組織情報",
+    "CORPORATIONS":  "会社",
+    "DEPARTMENTS":   "部署",
+    "STATUSES":      "雇用形態",
+    "AFFAIRS":       "総務関連",
+    "HIKARIE-CARDS": "ヒカリエカード管理",
+    "CARDS":         "カードIDM一覧",
+    "SYSTEM":        "システムメニュー",
+    "ACL":           "アクセス権限",
+    "BACKGROUND":    "バックグラウンド処理"
+  },
+  "SEARCH-BOX": {
+    "PLACE-HOLDER": "従業員を検索"
+  },
+  "ACCOUNT-MENU": {
+    "MY-PAGE": "マイページ",
+    "LOGOUT": "ログアウト"
+  },
+  "PEOPLE": {
+    "HEADER": {
+      "NAME": "氏名",
+      "EMPLOYEE_ID": "従業員番号",
+      "POSITION": "所属",
+      "EMPLOYMENT_TYPE": "雇用形態",
+      "ENROLLMENT": "在籍状態",
+      "ENTRANCE": "入社",
+      "RETIRE_DATE": "退職日"
+    }
+  },
+  "PERSON": {
+    "EMPLOYEE_NUMBER": "社員番号",
+    "GLOBAL": "グローバル",
+    "LOCAL": "ローカル",
+    "ACCOUNT": "アカウント",
+    "EMAIL": "メール",
+    "EMPLOYER": "雇用元",
+    "ENTRANCE_DATE": "入社日",
+    "RETIRE_DATE": "退職日",
+    "DETAIL": {
+      "NAV-LINKS": {
+        "BASIC": "基本情報",
+        "FOLDER": "フォルダアクセス権",
+        "GROUPS": "所属グループ",
+        "AD-INFO": "AD情報",
+        "PASSWORD": "パスワード"
+      },
+      "DEFAULT": {
+        "STATUS-HISTORIES": "雇用履歴",
+        "POSITION-HISTORIES": "所属履歴",
+        "EMPLOYER": "雇用元"
+      }
+    }
+  }
+}

@@ -8,10 +8,111 @@
   right: 0;
 }
 
+.app-toolbar {
+  background: white;
+  box-shadow: 0 3px 5px -3px rgba(0, 0, 0, 0.2);
+  z-index: 6;
+  h1 {
+    margin-right: 60px;
+    a {
+      text-decoration: none;
+      color: #333;
+    }
+  }
+  
+  .search-box {
+    background: #EBE9E9;
+    display: flex;
+    padding: 3px;
+    border-radius: 3px;
+    width: 50%;
+    
+    mat-icon {
+      color: #777777;
+    }
+    input[type=text] {
+      border: none;
+      background: transparent;
+      outline: none;
+      font-size: 16px;
+      font-weight: 100;
+      width: 100%;
+    }
+  }
+  
+  .lang-menu {
+    margin-left: 15px;
+  }
+  
+  $icon-small-container-size: 50px;
+  $icon-small-size: $icon-small-container-size * 0.7;
+  .account.mat-icon-button {
+    width: $icon-small-container-size;
+    height: $icon-small-container-size;
+    line-height: $icon-small-container-size;
+    .mat-icon, .mat-icon-button i {
+      line-height: $icon-small-size;
+    }
+    .mat-icon {
+      width: $icon-small-size;
+      height: $icon-small-size;
+      font-size: $icon-small-size;
+    }
+  }
+  .account-menu-bg {
+    position: fixed;
+    background: black;
+    opacity: 0.2;
+    top: 0; bottom: 0; left: 0; right: 0;
+    z-index: 98;
+  }
+  .account-menu {
+    position: absolute;
+    z-index: 99;
+    background: white;
+    min-width: 260px;
+    right: 20px;
+    top: 40px;
+    box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.4);
+    border-radius: 2px;
+    
+    .header {
+      background: #777777;
+      color: white;
+      display: flex;
+      align-items: center;
+      padding-left: 15px;
+      
+      .nameEmail {
+        padding: 10px 15px;
+        font-size: 12px;
+        line-height: 1.5;
+        .name {
+          font-size: 14px;
+        }
+        .email {
+          font-weight: 100;
+        }
+      }
+    }
+    .body {
+      mat-nav-list {
+        padding-top: 0px !important;
+        a {
+          font-size: 12px;
+        }
+        .mat-list-item {
+          height: 40px;
+        }
+      }
+    }
+  }
+}
+
+
+
 .app-is-mobile .app-toolbar {
   position: fixed;
-  /* Make sure the toolbar will stay on top of the content as it scrolls past. */
-  z-index: 2;
 }
 
 h1.app-name {
@@ -28,4 +129,25 @@ h1.app-name {
   /* When the sidenav is fixed, don't constrain the height of the sidenav container. This allows the
      `<body>` to be our scrolling element for mobile layouts. */
   flex: 1 0 auto;
+}
+
+mat-sidenav {
+  z-index: 4;
+  background: #F5F5F5;
+  min-width: 200px;
+  
+  .depth-2 {
+    padding-left: 20px;
+  }
+  mat-nav-list {
+    a {
+      font-size: 13px !important;
+    }
+    .mat-list-item {
+      height: 40px !important;
+      .mat-list-icon {
+        border-radius: 0% !important;
+      }
+    }
+  }
 }

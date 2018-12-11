@@ -6,5 +6,5 @@
 export var environment = {
   production: false,
   apiEndpoint: "http://127.0.0.1:6666/api/",
-  appTitle: "Empowerment Material Dev",
+  appTitle: "Empowerment Dev",
 };

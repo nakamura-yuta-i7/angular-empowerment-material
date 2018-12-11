@@ -1,0 +1,78 @@
+{
+  "LANG": {
+    "ENGLISH": "English",
+    "JAPANESE": "Japanese"
+  },
+  "SELECT_LANG": "Select Language",
+  "ROLE": "Role",
+  "SELECT_ROLE": "Select Role",
+  "ACCOUNT_MENU": "Account menu",
+  "SPECIFIED_SEARCH_CRITERIA": "検索条件を指定",
+  "NOTICE": "Notice",
+  "IPHONE_および_ANDROID_に対応しました！": "It corresponds to iPhone and Android!",
+  "ANGULAR_MATERIAL_を使ってUIデザインをリニューアルしました！": "UI design was renewed using Angular Material!",
+  "DENAグループの従業員情報を統合し、ACTIVE_DIRECTORYを始めとする様々なシステムとの連携を実現します。": "We integrate the employee information of the nkmr group and realize cooperation with various systems including Active Directory.",
+  "各種バッチ処理の制御": "Control of various batch processes",
+  "各種バッチ処理の制御はこちら": "Control of various batch processing is here",
+  "会社・部署・部署グループ": "Company / department / department group",
+  "会社・部署・部署グループを確認": "Confirm company / department / department group",
+  "アクセス権限の管理": "Management of access authority",
+  "アクセス権限をロール毎にユーザー・グループを指定して管理できます": "You can manage the access right by specifying the user group for each role",
+  "UNDER_CONSTRUCTION": "Under construction",
+  "PAGES": {
+    "HOME":          "Home",
+    "PEOPLE":        "Employees",
+    "ORGANIZATIONS": "Organizations",
+    "CORPORATIONS":  "Corporations",
+    "DEPARTMENTS":   "Departments",
+    "STATUSES":      "Employement Types",
+    "AFFAIRS":       "Affairs",
+    "HIKARIE-CARDS": "HIKARIE Cards",
+    "CARDS":         "Card IDM List",
+    "SYSTEM":        "System Menu",
+    "ACL":           "Access Control",
+    "BACKGROUND":    "Background Execution"
+  },
+  "SEARCH-BOX": {
+    "PLACE-HOLDER": "Search Employees"
+  },
+  "ACCOUNT-MENU": {
+    "MY-PAGE": "My Page",
+    "LOGOUT": "Logout"
+  },
+  "PEOPLE": {
+    "HEADER": {
+      "NAME": "Name",
+      "EMPLOYEE_ID": "Employee ID",
+      "POSITION": "Position",
+      "EMPLOYMENT_TYPE": "Employment Type",
+      "ENROLLMENT": "Enrollment",
+      "ENTRANCE": "Entrance",
+      "RETIRE_DATE": "Retire Date"
+    }
+  },
+  "PERSON": {
+    "EMPLOYEE_NUMBER": "Employee Number",
+    "GLOBAL": "Global",
+    "LOCAL": "Local",
+    "ACCOUNT": "Account",
+    "EMAIL": "E-Mail",
+    "EMPLOYER": "Employer",
+    "ENTRANCE_DATE": "Entrance Date",
+    "RETIRE_DATE": "Retire Date",
+    "DETAIL": {
+      "NAV-LINKS": {
+        "BASIC": "Basic Info",
+        "FOLDER": "Folder Permissions",
+        "GROUPS": "Groups",
+        "AD-INFO": "AD Info",
+        "PASSWORD": "Password"
+      },
+      "DEFAULT": {
+        "STATUS-HISTORIES": "Status Histories",
+        "POSITION-HISTORIES": "Position Histories",
+        "EMPLOYER": "Employer"
+      }
+    }
+  }
+}

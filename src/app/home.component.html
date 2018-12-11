@@ -1,0 +1,71 @@
+<h1 class="page-title">{{'PAGES.HOME' | translate}}</h1>
+
+<main>
+  <mat-card class="top-news">
+      <div class="news news1">
+        <img class="new-icon" src="/assets/home/new-icon.png">
+        <figure>
+          <img class="main-img" src="/assets/home/news1.png">
+        </figure>
+        <div class="date-label">
+          <span class="date">2018-05-03</span>
+          <span class="label">{{ 'NOTICE' | translate }}</span>
+        </div>
+        <div class="title">
+            {{ 'IPHONE_および_ANDROID_に対応しました！' | translate }}
+        </div>
+      </div>
+      <div class="news news2">
+        <img class="new-icon" src="/assets/home/new-icon.png">
+        <figure>
+          <img class="main-img" src="/assets/home/news2.png">
+        </figure>
+        <div class="date-label">
+          <span class="date">2018-05-03</span>
+          <span class="label">{{ 'NOTICE' | translate }}</span>
+        </div>
+        <div class="title">
+            {{ 'ANGULAR_MATERIAL_を使ってUIデザインをリニューアルしました！' | translate }}
+        </div>
+      </div>
+  </mat-card>
+  
+  <div class="banners">
+      <div class="left">
+        <mat-card>
+          <figure><img
+            mat-card-image 
+            src="/assets/home/empowerment.png" alt="empowerment"></figure>
+            <mat-card-content>
+                {{ 'DENAグループの従業員情報を統合し、ACTIVE_DIRECTORYを始めとする様々なシステムとの連携を実現します。' | translate }}
+            </mat-card-content>
+        </mat-card>
+        <mat-card *ngxPermissionsOnly="['ADMIN']">
+            <figure><img
+              mat-card-image 
+              src="/assets/home/background-execution.png" alt="{{ '各種バッチ処理の制御' | translate }}"></figure>
+              <mat-card-content>
+                  {{ '各種バッチ処理の制御はこちら' | translate }}
+              </mat-card-content>
+        </mat-card>
+      </div>
+      <div class="right">
+        <mat-card>
+          <figure><img
+            mat-card-image 
+            src="/assets/home/groups.png" alt="{{ '会社・部署・部署グループ' | translate }}"></figure>
+            <mat-card-content>
+                {{ '会社・部署・部署グループを確認' | translate }}
+            </mat-card-content>
+        </mat-card>
+        <mat-card *ngxPermissionsOnly="['ADMIN']">
+            <figure><img
+              mat-card-image 
+              src="/assets/home/acl.png" alt="{{ 'アクセス権限の管理' | translate }}"></figure>
+              <mat-card-content>
+                  {{ 'アクセス権限をロール毎にユーザー・グループを指定して管理できます' | translate }}
+              </mat-card-content>
+        </mat-card>
+      </div>
+  </div>
+</main>

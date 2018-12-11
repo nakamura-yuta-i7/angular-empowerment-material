@@ -1,0 +1,16 @@
+@import "person";
+main {
+  
+  .basic-info {
+    margin-bottom: 25px;
+  }
+  .mat-tab-link {
+    height: 38px !important;
+    min-width: auto !important;
+  }
+  .tab-contents {
+    font-size: 13px;
+    padding: 15px 0;
+  }
+}
+

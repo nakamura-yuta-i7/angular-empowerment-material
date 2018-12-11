@@ -1,0 +1,64 @@
+<h1 class="page-title">{{'PAGES.PEOPLE' | translate}}</h1>
+
+<div class="people-header">
+  <a mat-button>{{'PEOPLE.HEADER.NAME' | translate}}</a>
+  <a mat-button>{{'PEOPLE.HEADER.EMPLOYEE_ID' | translate}}</a>
+  <a mat-button>{{'PEOPLE.HEADER.POSITION' | translate}}</a>
+  <a mat-button>{{'PEOPLE.HEADER.EMPLOYMENT_TYPE' | translate}}</a>
+  <a mat-button>{{'PEOPLE.HEADER.ENROLLMENT' | translate}}</a>
+  <a mat-button>{{'PEOPLE.HEADER.ENTRANCE' | translate}}/{{'PEOPLE.HEADER.RETIRE_DATE' | translate}}</a>
+</div>
+
+<div class="person-list">
+  
+  <div class="person" *ngFor="let person of people">
+    <a [routerLink]="'/people/detail/' + person.id">
+    <mat-card>
+      <img mat-card-avatar src="/assets/person-photos/person-1.png">
+      <div class="basic-info">
+        <div class="top-section">
+          <div class="fullname">
+            <mat-card-subtitle class="local-yomi">{{person.fullname_local_yomi}}</mat-card-subtitle>
+            <mat-card-title class="local">{{person.fullname_local}}</mat-card-title>
+            <mat-card-subtitle class="global">{{person.fullname_global}}</mat-card-subtitle>
+          </div>
+          <div class="employee-id">
+            <div class="label">{{'PERSON.EMPLOYEE_NUMBER' | translate}}</div>
+            <div class="values">
+              <div class="global">
+                <span class="label">{{'PERSON.GLOBAL' | translate}}</span>
+                <span class="value">{{person.employee_id_global}}</span>
+              </div>
+              <div class="local">
+                <span class="label">{{'PERSON.LOCAL' | translate}}</span>
+                <span class="value">{{person.employee_id_local}}</span>
+              </div>
+            </div>
+          </div>
+          <div class="account-email">
+            <div class="account">
+              <span class="label">{{'PERSON.ACCOUNT' | translate}}</span>
+              <span class="value">{{person.account}}</span>
+            </div>
+            <div class="email">
+              <span class="label">{{'PERSON.EMAIL' | translate}}</span>
+              <span class="value">{{person.email}}</span>
+            </div>
+          </div>
+        </div>
+        <div class="bottom-section">
+          <div class="employer-position">
+            <div class="employer">{{'PERSON.EMPLOYER' | translate}}: {{person.employer}}</div>
+            <div class="position">{{person.position}}</div>
+          </div>
+          <div class="start-end">
+            <div class="entrance-date">{{'PERSON.ENTRANCE_DATE' | translate}}: {{person.entrance_date}}</div>
+            <div class="retire-date">{{'PERSON.RETIRE_DATE' | translate}}: {{person.retire_date}}</div>
+          </div>
+        </div>
+      </div>
+    </mat-card>
+    </a>
+  </div>
+  <!-- .person: ここまで -->
+</div>

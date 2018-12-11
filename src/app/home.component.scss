@@ -1,0 +1,67 @@
+main {
+  .top-news {
+    background: #efefef !important;
+    margin-bottom: 15px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    color: #777;
+    
+    .news {
+      width: 49%;
+      position: relative;
+      .new-icon {
+        width: 54px;
+        z-index: 9;
+        position: absolute;
+        margin-top: -10px;
+        margin-left: -10px;
+      }
+      figure { overflow: hidden; }
+      .main-img {
+        width: 100%;
+        display: block;
+        transition: transform 0.1s linear;
+        &:hover { transform: scale(1.1); }
+      }
+      .date-label {
+        font-size: 11px;
+        padding-top: 10px;
+        margin-bottom: 6px;
+        font-weight: 900;
+        span.label {
+          background: #6D6D6D;
+          color: white;
+          padding: 0px 3px 0 2px;
+          margin-left: 10px;
+          border-radius: 2px;
+          display: inline-block;
+        }
+      }
+    }
+  }
+  .banners {
+    display: flex;
+    justify-content: space-between;
+    .left, .right {
+      width: 49% !important;
+    }
+    
+    mat-card {
+      box-sizing: border-box;
+      margin-bottom: 15px;
+      overflow: hidden;
+      figure {
+        margin: 0;
+        display: block;
+      }
+      img {
+        transition: transform 0.1s linear;
+        &:hover { transform: scale(1.1); }
+      }
+      mat-card-content {
+        font-size: 15px !important;
+      }
+    } 
+  }
+}
